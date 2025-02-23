@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  sonarqube:
+    image: sonarqube:latest
+    container_name: sonarqube
+    ports:
+      - "8000:9000"
+    volumes:
+      - sonarqube_data:/opt/sonarqube/data
+    environment:
+      - SONAR_ES_BOOTSTRAP_CHECKS_DISABLE=true
+    restart: always
+volumes:
+  sonarqube_data:
+    external: true
