@@ -79,7 +79,7 @@ Configuramos nuestra réplica “julia_analizer.sh”:
 #!/bin/bash
 IP_LOCAL=”192.168.0.91” # Dirección interna de propia PC, en mi caso 192.168.0.91 
 PROJECT_NAME=”Julia” # Nombre elegido para el proyecto, en mi caso elegí “Julia”
-TOKEN_WEB="sqp_79a245700bcf0cc53acc89e0d63aaf8a96fc55ff” # El token ofrecido por la app v
+TOKEN_WEB="sqp_79a245700bcf0cc53acc89e0d63aaf8a96fc55ff" # El token ofrecido por la app v
 DIR_APP=”/home/rtadmin/julia” #Aquí deberán seleccionar la ruta local en dónde se encuentra clonado el repositorio a analizar
 ```
 
